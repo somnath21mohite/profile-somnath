@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <style>
-        /* id selector */
-        #name{
-            color: black;
-            font-size: large;
-            font-weight: bolder;
-        }
+      /* id selector */
+      #name {
+        color: black;
+        font-size: large;
+        margin-right: 60px;
+      }
+      #mobile {
+        color: black;
+        font-size: large;
+        margin: 60px;
+      }
+      #link {
+        margin-right: 40px;
+      }
+      #git {
+        margin-right: 40px;
+      }
     </style>
-</head>
-<body>
+    <style>
+      nav a {
+        margin-right: 40px;
+        text-decoration: none;
+      }
+      #homeLink {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
     <!-- Header Section   -->
-    <header style=" background-color: orange;">
-        <span id="name"> Name: Somnath Mohite &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 9821005716&nbsp;&nbsp;&nbsp;&nbsp;Email: ssm@gmail.com&nbsp;&nbsp;&nbsp;&nbsp; </span></header>
-    <hr>
-        <!-- Navigatio Section -->
-    <nav style="background-color: aqua;">
-        <a href="home.html" target="mainFrame">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="mainFrame">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="mainFrame">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="mainFrame">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="others.html" target="mainFrame">OTHERS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <header style="background-color: orange">
+      <span id="name"> Name: Somnath Mohite </span>
+      <span id="mobile">Mobile: 9821005716</span>
+      <span> Email: ssm@gmail.com</span>
+    </header>
+    <hr />
+    <!-- Navigatio Section -->
+    <nav style="background-color: aqua">
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a>
+      <a href="techStack.html" target="mainFrame">TECH STACK</a>
+      <a href="project.html" target="mainFrame">PROJECT</a>
+      <a href="education.html" target="mainFrame">EDUCATION</a>
+      <a href="others.html" target="mainFrame">OTHERS</a>
     </nav>
-    <hr>
+    <hr />
     <!-- Body Section -->
-    <iframe style="background-color: yellow;" src="home.html" name="mainFrame" width="800px" height="550px"></iframe>
-    <br><br>
-    
+    <iframe
+      style="background-color: yellow"
+      src="home.html"
+      name="mainFrame"
+      width="800px"
+      height="550px"
+    ></iframe>
+    <br /><br />
+
     <!-- Footer Section -->
-    <a href="">Linked IN</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="">Naukri</a>
-        
-
-    
-
-</body>
+    <a href="" id="link">Linked IN</a>
+    <a href="" id="git">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="" id="naukari">Naukri</a>
+  </body>
 </html>
