@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <!--CDN Link- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CDN Link- Goggle font families-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <style>
       /* id selector */
       #name {
         color: black;
         font-size: large;
-        margin-right: 60px;
+        
       }
       #mobile {
         color: black;
         font-size: large;
-        margin: 60px;
+        margin: 40px;
       }
       #link {
         margin-right: 40px;
@@ -27,18 +33,37 @@
       nav a {
         margin-right: 40px;
         text-decoration: none;
+        font-family:'Concert One', sans-serif ;
       }
       #homeLink {
         margin-left: 20px;
       }
+      header span{
+        margin-right: 40px;
+      }
+      header{
+        text-align: right;
+      }
+      header img{
+        width: 30px;
+        height: 30px;
+      }
+      .img {
+        float: left;
+      }
+
+
     </style>
   </head>
   <body>
     <!-- Header Section   -->
     <header style="background-color: orange">
-      <span id="name"> Name: Somnath Mohite </span>
-      <span id="mobile">Mobile: 9821005716</span>
-      <span> Email: ssm@gmail.com</span>
+      <img class="img" src="Developer.png" alt="">
+      <span ><i class="fa fa-user" aria-hidden="true"></i>
+       Somnath Mohite </span>
+         <span><i class="fa fa-phone-square" aria-hidden="true"></i>9821005716</span>
+      <span><i class="fa fa-envelope" aria-hidden="true"></i>
+        ssm@gmail.com</span>
     </header>
     <hr />
     <!-- Navigatio Section -->
@@ -61,8 +86,10 @@
     <br /><br />
 
     <!-- Footer Section -->
-    <a href="" id="link">Linked IN</a>
-    <a href="" id="git">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="" id="naukari">Naukri</a>
+    <a href="https://in.linkedin.com/"  target="_blank" id="link"><i class="fa fa-linkedin-square" aria-hidden="true"></i>  </a>
+    <a href="https://github.com/somnath21mohite/profile-somnath" target="_blank" id="git"><i class="fa fa-github-alt" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.naukri.com/" target="_blank" id="naukari"><i class="fa fa-laptop" aria-hidden="true"></i>
+    </a>
   </body>
 </html>
