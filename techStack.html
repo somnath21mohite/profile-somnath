@@ -10,13 +10,19 @@
       rel="stylesheet"
     />
     <style>
+      body{
+        background-image: url(Background1.jpg);
+        background-repeat:none;
+        background-size: center;
+      }
       table,
       th,
       tr,
       td {
-        border: 1px solid black;
+        border: 2px solid black;
         border-collapse: collapse;
-        padding: 20px;
+        padding: 20px 70px 20px 70px;
+        margin-left: 400px;
       }
       th {
         font-family: "Poppins", sans-serif;
@@ -26,13 +32,17 @@
       }
       h2{
         font-family: "Poppins", sans-serif;
+        text-align: center;
+      }
+      tr:hover{
+        background-color: cadetblue;
       }
     </style>
   </head>
   <body>
-    <h2>Technology Stack</h2>
+    <h2 style="color: black;background-color: grey;">Technology Stack</h2>
     <table>
-      <thead>
+      <thead style="color: black;background-color: whitesmoke;">
         <th>Sr.No</th>
         <th>Technology Stack</th>
         <th>Rating</th>

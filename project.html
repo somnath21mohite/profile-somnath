@@ -26,13 +26,24 @@
         }
         h2{
           font-family: "Poppins", sans-serif;
+          text-align: center;
         }
+        body{
+          background-image:url(Background1.jpg) ;
+          background-repeat:none;
+          background-size: center;
+        }
+        #a{
+          list-style-type: none;
+        }
+        #a li::before{
+          content: "👉";
+         }
 
-        
-    </style>
+         </style>
   </head>
   <body>
-    <h2>Project Details</h2>
+    <h2 style="color: black; background-color: gray;"> Project Details</h2>
     <p><b>Name:</b> Student Management</p>
     <p>
       <b>Environment:</b>
@@ -55,8 +66,8 @@
       all his or her academic activities like score card, attendance.
     </p>
     <hr />
-    <h2>Role and Responsibilities:</h2>
-    <ul>
+    <h2 style="color: black; background-color: gray;">Role and Responsibilities:</h2>
+    <ul id="a">
       <li>Designed and implemented the user interface using HTML 5 and CSS.</li>
       <li>Work closely with backend developers for code integration.</li>
       <li>Identifying and troubleshooting issues with front end code.</li>

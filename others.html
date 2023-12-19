@@ -30,10 +30,22 @@
       ol li {
         font-family: "Roboto", sans-serif;
       }
+      #a li{
+          list-style-type:none;
+      }
+      #a li::before{
+        content: "👉";
+      }
+      body{
+        background-image: url(Background.jpg);
+        background-repeat: none;
+        background-size: center;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    <h2>Profile Photo:</h2>
+    <h2 style="color:black; background-color: gray;">Profile Photo:</h2>
     <img src="developer.png" alt="Developer Photo" />
     <p id="som">Somnath Mohite</p>
     <p><b>Mobile Number:</b> 9821005716</p>
@@ -42,7 +54,7 @@
     <p><b>Address:</b> OM Vrindawan colony,Pune</p>
     <details>
       <summary><b>Family Details</b></summary>
-      <ol>
+      <ol id="a">
         <li id="fath">Father Name: Suresh Mohite</li>
         <li id="moth">Mother Name: Laxmi Mohite</li>
       </ol>

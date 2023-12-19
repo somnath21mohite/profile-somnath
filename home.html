@@ -27,10 +27,26 @@
       }
       h2 {
         font-family: "Poppins", sans-serif;
+        text-align: center;
       }
       p {
         font-family: "Roboto", sans-serif;
       }
+
+    body{
+            background-image: url(Background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    #Data li{
+    list-style-type: none;
+}
+#Data li::before{
+    content: "👉";
+}
+#Data{
+  color:whitesmoke;
+}
     </style>
   </head>
   <body>
@@ -40,7 +56,7 @@
       ORGANIZATIONAL GROWTH
     </p>
     <h2 style="color: black; background-color: gray">Professional Summery</h2>
-    <ul>
+    <ul id="Data">
       <li>
         Having 5 years of experience in developing single page Web Applications
         using <span id="angular"> Angular 13</span>,HTML5,CSS3,Bootstrap 5, Java
